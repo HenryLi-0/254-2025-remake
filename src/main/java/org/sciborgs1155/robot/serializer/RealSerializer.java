@@ -1,5 +1,3 @@
 package org.sciborgs1155.robot.serializer;
 
-public class RealSerializer implements SerializerIO {
-    
-}
+public class RealSerializer implements SerializerIO {}
