@@ -1,5 +1,5 @@
 package org.sciborgs1155.robot.shooter;
 
-public class NoShooter {
+public class NoShooter implements ShooterIO {
     
 }

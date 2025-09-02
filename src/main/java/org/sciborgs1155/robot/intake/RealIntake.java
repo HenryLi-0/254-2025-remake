@@ -1,5 +1,5 @@
 package org.sciborgs1155.robot.intake;
 
-public class RealIntake {
+public class RealIntake implements IntakeIO {
     
 }

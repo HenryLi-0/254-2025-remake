@@ -1,5 +1,5 @@
 package org.sciborgs1155.robot.serializer;
 
-public class SerializerConstants {
+public final class SerializerConstants {
     
 }
