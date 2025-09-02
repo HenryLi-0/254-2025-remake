@@ -2,6 +2,8 @@ package org.sciborgs1155.robot.intake;
 
 import static org.sciborgs1155.robot.Ports.Intake.*;
 
+import org.sciborgs1155.lib.FaultLogger;
+
 import com.ctre.phoenix6.hardware.TalonFX;
 
 public class RealIntake implements IntakeIO {
@@ -9,6 +11,8 @@ public class RealIntake implements IntakeIO {
 
   public RealIntake(boolean front) {
     motor = new TalonFX(front ? FRONT_INTAKE : BACK_INTAKE);
+
+    FaultLogger.register(motor);
   }
 
   @Override
