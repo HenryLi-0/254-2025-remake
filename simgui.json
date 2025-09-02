@@ -56,9 +56,10 @@
         }
       },
       "/Robot/drive/field2d": {
-        "bottom": 1638,
-        "height": 8.051901817321777,
-        "left": 534,
+        "bottom": 900,
+        "builtin": "2022 Rapid React",
+        "height": 8.229599952697754,
+        "left": 74,
         "module- FL": {
           "style": "Line"
         },
@@ -71,20 +72,21 @@
         "module-RL": {
           "style": "Line"
         },
-        "right": 3466,
-        "top": 291,
-        "width": 17.54825210571289,
+        "right": 1774,
+        "top": 50,
+        "width": 16.459199905395508,
         "window": {
           "visible": true
         }
       },
       "/SmartDashboard/Drive Field": {
-        "bottom": 1638,
-        "height": 8.051901817321777,
-        "left": 534,
-        "right": 3466,
-        "top": 291,
-        "width": 17.54825210571289,
+        "bottom": 900,
+        "builtin": "2022 Rapid React",
+        "height": 8.229599952697754,
+        "left": 74,
+        "right": 1774,
+        "top": 50,
+        "width": 16.459199905395508,
         "window": {
           "visible": true
         }
@@ -171,8 +173,7 @@
               "open": true
             },
             "open": true
-          },
-          "open": true
+          }
         },
         "open": true
       }
@@ -180,5 +181,40 @@
   },
   "NetworkTables Info": {
     "visible": true
+  },
+  "Plot": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 338,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:flywheel velocity setpoint"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:flywheel velocity actual"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

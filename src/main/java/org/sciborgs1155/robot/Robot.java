@@ -39,6 +39,7 @@ import org.sciborgs1155.robot.Ports.OI;
 import org.sciborgs1155.robot.commands.Alignment;
 import org.sciborgs1155.robot.commands.Autos;
 import org.sciborgs1155.robot.drive.Drive;
+import org.sciborgs1155.robot.shooter.Shooter;
 import org.sciborgs1155.robot.vision.Vision;
 
 /**
@@ -58,6 +59,8 @@ public class Robot extends CommandRobot {
   // SUBSYSTEMS
   private final Drive drive = Drive.create();
   private final Vision vision = Vision.create();
+
+  private final Shooter shooter = Shooter.create();
 
   // COMMANDS
   private final Alignment align = new Alignment(drive);
@@ -192,6 +195,8 @@ public class Robot extends CommandRobot {
         .onFalse(Commands.runOnce(() -> speedMultiplier = Constants.FULL_SPEED_MULTIPLIER));
 
     // TODO: Add any additional bindings.
+
+    driver.a().whileTrue(shooter.setFlywheelGoal(100)).whileFalse(shooter.setFlywheelGoal(0));
   }
 
   /**

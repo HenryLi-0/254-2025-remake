@@ -2,9 +2,8 @@ package org.sciborgs1155.robot.intake;
 
 import static org.sciborgs1155.robot.Ports.Intake.*;
 
-import org.sciborgs1155.lib.FaultLogger;
-
 import com.ctre.phoenix6.hardware.TalonFX;
+import org.sciborgs1155.lib.FaultLogger;
 
 public class RealIntake implements IntakeIO {
   private final TalonFX motor;

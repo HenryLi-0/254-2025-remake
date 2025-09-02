@@ -55,4 +55,10 @@ public final class Ports {
     public static final int FRONT_INTAKE = 21;
     public static final int BACK_INTAKE = 22;
   }
+
+  public static final class Shooter {
+    public static final int TOP_SHOOTER = 23;
+    public static final int BOTTOM_SHOOTER = 24;
+    public static final int HOOD = 25;
+  }
 }

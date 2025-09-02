@@ -36,3 +36,4 @@ stuff:
 
 
 - need to add code for pnumeatics in ground intake
+- hood + shooting in sim logic not added yet
