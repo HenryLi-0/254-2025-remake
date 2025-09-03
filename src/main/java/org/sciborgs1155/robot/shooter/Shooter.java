@@ -81,7 +81,6 @@ public class Shooter extends SubsystemBase {
     LoggingUtils.log("hood position actual", hardware.hoodPosition());
   }
 
-    
   @Override
   public void periodic() {
     flywheelUpdate();

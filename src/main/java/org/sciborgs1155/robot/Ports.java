@@ -61,4 +61,8 @@ public final class Ports {
     public static final int BOTTOM_SHOOTER = 24;
     public static final int HOOD = 25;
   }
+
+  public static final class Turret {
+    public static final int MOTOR = 26;
+  }
 }
